@@ -1,0 +1,56 @@
+body {
+    background-color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* recipes page */
+.searchResults {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#searchValue{
+    width: 160px;
+    height: 20px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+#searchValue:focus-visible{
+    outline: 1px solid grey;
+}
+
+.recipe {
+    width: 300px;
+    border: solid 3px white;
+    text-align: center;
+}
+
+.recipe img {
+    max-width: 200px;
+}
+
+/* ingredients page */
+.container {
+    display: flex;
+}
+
+.ingredients {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-left: 80px;
+}
+
+.ingredient {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    border: solid 3px white;
+    text-align: center;
+}
