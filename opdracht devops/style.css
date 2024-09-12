@@ -17,6 +17,7 @@ body {
     height: 20px;
     border: 1px solid blue;
     border-radius: 5px;
+    
 }
 
 #searchValue:focus-visible{
